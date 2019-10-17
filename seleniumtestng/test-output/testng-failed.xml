@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumTestSuite]">
+  <test name="FootballTest(failed)">
+    <classes>
+      <class name="football.googlefootball">
+        <methods>
+          <include name="setup"/>
+          <include name="logger"/>
+          <include name="teardown"/>
+          <include name="closelogger"/>
+          <include name="utilitysetup"/>
+          <include name="testassociation" invocation-numbers="0"/>
+          <include name="closeutilitysetup"/>
+        </methods>
+      </class> <!-- football.googlefootball -->
+    </classes>
+  </test> <!-- FootballTest(failed) -->
+</suite> <!-- Failed suite [SeleniumTestSuite] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumTestSuite">
+
+ 
+<groups>
+<run>
+<include name="smoketest"/>
+<!-- <exclude name=""></exclude>  -->
+</run>
+</groups> 
+ 
+ 
+<listeners>
+<listener class-name="utilities.Listeners"></listener>
+<listener class-name="utilities.Transform"></listener>
+</listeners>
+
+  <!--  <methods>
+      <include name="testwireless"></include>
+      <include name="testcricket"></include>
+      </methods>  -->
+
+  <test name="CricketTest">
+    <classes>
+      <class name="cricket.googlecricket">
+      </class>
+    </classes>
+  </test>
+  
+   <test name="FootballTest">
+    <classes>
+      <class name="football.googlefootball"> 
+      </class>
+    </classes>
+  </test>
+  
+</suite> <!-- SeleniumTestSuite -->

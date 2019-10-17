@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Google>
+	<browser>googlechrome</browser>
+	<URL>http://www.google.com</URL>
+	
+	<Homepage>
+		<searchbox locator="id">lst-ib</searchbox>
+	</Homepage>
+	
+</Google>

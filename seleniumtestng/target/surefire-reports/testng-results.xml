@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[------This testclass started: CricketTest]]>
+    </line>
+    <line>
+      <![CDATA[------This test started: testwireless]]>
+    </line>
+    <line>
+      <![CDATA[------This test sucess: testwireless]]>
+    </line>
+    <line>
+      <![CDATA[------This test started: testcricket]]>
+    </line>
+    <line>
+      <![CDATA[------This test sucess: testcricket]]>
+    </line>
+    <line>
+      <![CDATA[------This testclass finished: CricketTest]]>
+    </line>
+    <line>
+      <![CDATA[------This testclass started: FootballTest]]>
+    </line>
+    <line>
+      <![CDATA[------This test started: testassociation]]>
+    </line>
+    <line>
+      <![CDATA[------This test failed: testassociation]]>
+    </line>
+    <line>
+      <![CDATA[--------------SCREENSHOT CAN BE FOUND AT: D:\WorkSpaceTest\seleniumtestng\.\target\Screenshots\googlefootball\testassociation.png------------]]>
+    </line>
+  </reporter-output>
+  <suite name="Base.TngXMLTest" duration-ms="43912" started-at="2017-11-16T02:55:37Z" finished-at="2017-11-16T02:56:21Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="43912" started-at="2017-11-16T02:55:37Z" finished-at="2017-11-16T02:56:21Z">
+      <class name="Base.TngXMLTest">
+        <test-method status="PASS" signature="testng()[pri:0, instance:Base.TngXMLTest@60addb54]" name="testng" duration-ms="43887" started-at="2017-11-16T08:25:37Z" finished-at="2017-11-16T08:26:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[------This testclass started: CricketTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testng -->
+      </class> <!-- Base.TngXMLTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Base.TngXMLTest -->
+</testng-results>
